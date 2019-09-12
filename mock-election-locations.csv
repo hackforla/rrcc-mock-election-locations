@@ -1,51 +1,51 @@
-Location,Address
-Memorial Park,"320 N. Orange Ave., Azusa, CA 91702"
-Verdugo Recreation Center,"3201 W. Verdugo Ave., Burbank, CA 91505"
-Calabasas Senior Center,"300 Civic Center Way, Calabasas, CA 91302"
-Carson Community Center,"801 E. Carson St., Carson, CA 90745"
-Liberty II Facility,"19033 Studebaker Rd., Cerritos, CA 90703"
-Taylor Reception Hall,"1775 N. Indian Hill Blvd., Claremont, CA 91711"
-Clara Street Park,"4835 Clara St., Cudahy, CA 90201"
-Culver City City Hall,"9770 Culver Blvd., Culver City, CA 90232"
-Pamela Park,"2236 Goodall Ave., Duarte, CA 91010"
-Glendale Central Library,"222 E. Harvard St., Glendale, CA 91205"
-Crowther Teen & Family Center,"241 W. Dawson Ave., Glendora, CA 91740"
-Petit Park Granada Hills Recreation Center,"16730 Chatsworth St., Granada Hills, CA 91344"
-C. Robert Lee Activity Center,"21815 Pioneer Blvd., Hawaiian Gardens, CA 90716"
-Betty Ainsworth Sports Center,"3851 W. El Segundo Blvd., Hawthorne, CA 90250"
-Clark Building,"861 Valley Dr., Hermosa Beach, CA 90254"
-Lennox Park,"10828 Condon Ave., Inglewood, CA 90304"
-San Angelo Park,"245 S. San Angelo Ave., La Puente, CA 91746"
-Mayflower Gardens,"6570 W. Avenue L 12, Lancaster, CA 93536"
-Living Stone Cathedral of Worship,"37721 100th St. E, Littlerock, CA 93543"
-MacArthur Park,"1321 E. Anaheim St., Long Beach, CA 90813"
-Pan American Park,"5157 Centralia St., Long Beach, CA 90808"
-Bethel AME Church,"7900 S. Western Ave., Los Angeles, CA 90047"
-Cypress Park Branch Library,"1150 Cypress Ave., Los Angeles, CA 90065"
-Exposition Park - Dr. Mary McLeod Bethune Regional Library,"3900 S. Western Ave., Los Angeles, CA 90062"
-George Washington Carver Park,"1400 E. 118th St., Los Angeles, CA 90059"
-Japanese American Cultural and Community Center,"244 San Pedro St., Los Angeles, CA 90012"
-Los Angeles Zoo,"5333 Zoo Dr., Los Angeles, CA 90027"
-Pio Pico Koreatown Branch Library,"694 S. Oxford Ave., Los Angeles, CA 90005"
-Ruben F. Salazar Park,"3864 Whittier Blvd., Los Angeles, CA 90023"
-Watts Labor Community Action Committee,"10950 S. Central Ave., Los Angeles, CA 90059"
-Yosemite Recreation Center,"1840 Yosemite Dr., Los Angeles, CA 90041"
-Lynwood Bateman Hall,"11331 Ernestine Ave., Lynwood, CA 90262"
-Malibu City Hall,"23825 Stuart Ranch Rd., Malibu, CA 90265"
-North Hollywood Recreation Center,"11430 Chandler Blvd., North Hollywood, CA 91601"
-Los Angeles County Registrar-Recorder/County Clerk,"12400 Imperial Hwy., Norwalk, CA 90650"
-El Nido Pacoima Community Center,"11243 Glenoaks Blvd., Pacoima, CA 91331"
-Stephen Sorensen Park,"16801 E. Ave. P, Palmdale, CA 93591"
-Villa Parke Community Center Auditorium,"363 E. Villa St., Pasadena, CA 91101"
-Pico Park Community Center,"9528 Beverly Blvd., Pico Rivera, CA 90660"
-Reseda Recreation Center,"18411 Victory Blvd., Reseda, CA 91335"
-Carolyn Rosas County Park,"18500 Farjardo St., Rowland Heights, CA 91748"
-Little Sisters Of The Poor,"2100 S. Western Ave., San Pedro, CA 90732"
-College Of The Canyons - Valencia Campus,"26455 Rockwell Canyon Rd., Santa Clarita, CA 91355"
-Santa Monica College,"1510 Pico Blvd., Santa Monica, CA 90405"
-Van Nuys/Sherman Oaks Recreation Center,"14201 Huston St., Sherman Oaks, CA 91423"
-Zev Yaroslavsky Family Support Center,"7555 Van Nuys Blvd., Van Nuys, CA 91405"
-Mt. San Antonio College,"1100 N. Grand Ave., Walnut, CA 91789"
-Plummer Park,"7377 Santa Monica Blvd., West Hollywood, CA 90046"
-South Whittier Library,"11543 Colima Rd., Whittier, CA 90604"
-SBCC Thrive LA,"540 North Marine Ave., Wilmington, CA 90744"
+Location,Address,Latitude,Longitude
+Memorial Park,"320 N. Orange Ave., Azusa, CA 91702",34.1266602,-117.9131312
+Verdugo Recreation Center,"3201 W. Verdugo Ave., Burbank, CA 91505",34.1632836,-118.339346
+Calabasas Senior Center,"300 Civic Center Way, Calabasas, CA 91302",34.1518559,-118.6467738
+Carson Community Center,"801 E. Carson St., Carson, CA 90745",33.832846,-118.2613418
+Liberty II Facility,"19033 Studebaker Rd., Cerritos, CA 90703",33.857237,-118.10046
+Taylor Reception Hall,"1775 N. Indian Hill Blvd., Claremont, CA 91711",34.1154257,-117.7209338
+Clara Street Park,"4835 Clara St., Cudahy, CA 90201",33.9658212,-118.1810626
+Culver City City Hall,"9770 Culver Blvd., Culver City, CA 90232",34.0215662,-118.3954522
+Pamela Park,"2236 Goodall Ave., Duarte, CA 91010",34.1237142,-117.9938595
+Glendale Central Library,"222 E. Harvard St., Glendale, CA 91205",34.1439924,-118.2535891
+Crowther Teen & Family Center,"241 W. Dawson Ave., Glendora, CA 91740",34.118462,-117.866645
+Petit Park Granada Hills Recreation Center,"16730 Chatsworth St., Granada Hills, CA 91344",34.2636359,-118.4966524
+C. Robert Lee Activity Center,"21815 Pioneer Blvd., Hawaiian Gardens, CA 90716",33.8289996,-118.0822672
+Betty Ainsworth Sports Center,"3851 W. El Segundo Blvd., Hawthorne, CA 90250",33.9167748,-118.3406688
+Clark Building,"861 Valley Dr., Hermosa Beach, CA 90254",33.8610115,-118.3948333
+Lennox Park,"10828 Condon Ave., Inglewood, CA 90304",33.9373949,-118.3588415
+San Angelo Park,"245 S. San Angelo Ave., La Puente, CA 91746",34.0505311,-118.0027577
+Mayflower Gardens,"6570 W. Avenue L 12, Lancaster, CA 93536",34.6493245,-118.2471969
+Living Stone Cathedral of Worship,"37721 100th St. E, Littlerock, CA 93543",34.56754,-117.953277
+MacArthur Park,"1321 E. Anaheim St., Long Beach, CA 90813",33.7828923,-118.1745728
+Pan American Park,"5157 Centralia St., Long Beach, CA 90808",33.8413206,-118.1308748
+Bethel AME Church,"7900 S. Western Ave., Los Angeles, CA 90047",33.9669572,-118.3086389
+Cypress Park Branch Library,"1150 Cypress Ave., Los Angeles, CA 90065",34.0944557,-118.2274469
+Exposition Park - Dr. Mary McLeod Bethune Regional Library,"3900 S. Western Ave., Los Angeles, CA 90062",34.0144017,-118.3086162
+George Washington Carver Park,"1400 E. 118th St., Los Angeles, CA 90059",33.9257675,-118.2498985
+Japanese American Cultural and Community Center,"244 San Pedro St., Los Angeles, CA 90012",34.047773,-118.2419265
+Los Angeles Zoo,"5333 Zoo Dr., Los Angeles, CA 90027",34.1490407,-118.2840479
+Pio Pico Koreatown Branch Library,"694 S. Oxford Ave., Los Angeles, CA 90005",34.0600383,-118.3071069
+Ruben F. Salazar Park,"3864 Whittier Blvd., Los Angeles, CA 90023",34.0230954,-118.190231
+Watts Labor Community Action Committee,"10950 S. Central Ave., Los Angeles, CA 90059",33.9360603,-118.2530299
+Yosemite Recreation Center,"1840 Yosemite Dr., Los Angeles, CA 90041",34.1334034,-118.2073396
+Lynwood Bateman Hall,"11331 Ernestine Ave., Lynwood, CA 90262",33.9251825,-118.1987939
+Malibu City Hall,"23825 Stuart Ranch Rd., Malibu, CA 90265",34.039197,-118.6930581
+North Hollywood Recreation Center,"11430 Chandler Blvd., North Hollywood, CA 91601",34.1675946,-118.3799724
+Los Angeles County Registrar-Recorder/County Clerk,"12400 Imperial Hwy., Norwalk, CA 90650",33.9160764,-118.067914
+El Nido Pacoima Community Center,"11243 Glenoaks Blvd., Pacoima, CA 91331",34.2739431,-118.4129786
+Stephen Sorensen Park,"16801 E. Ave. P, Palmdale, CA 93591",34.602744,-117.8290186
+Villa Parke Community Center Auditorium,"363 E. Villa St., Pasadena, CA 91101",34.1545746,-118.1428974
+Pico Park Community Center,"9528 Beverly Blvd., Pico Rivera, CA 90660",34.0073646,-118.0727627
+Reseda Recreation Center,"18411 Victory Blvd., Reseda, CA 91335",34.1872871,-118.5335143
+Carolyn Rosas County Park,"18500 Farjardo St., Rowland Heights, CA 91748",33.979196,-117.902383
+Little Sisters Of The Poor,"2100 S. Western Ave., San Pedro, CA 90732",33.7247497,-118.3107016
+College Of The Canyons - Valencia Campus,"26455 Rockwell Canyon Rd., Santa Clarita, CA 91355",34.4043812,-118.5705894
+Santa Monica College,"1510 Pico Blvd., Santa Monica, CA 90405",34.0163927,-118.4748106
+Van Nuys/Sherman Oaks Recreation Center,"14201 Huston St., Sherman Oaks, CA 91423",34.1599273,-118.4421766
+Zev Yaroslavsky Family Support Center,"7555 Van Nuys Blvd., Van Nuys, CA 91405",34.2082385,-118.4492124
+Mt. San Antonio College,"1100 N. Grand Ave., Walnut, CA 91789",34.0482035,-117.845125
+Plummer Park,"7377 Santa Monica Blvd., West Hollywood, CA 90046",34.0914637,-118.350834
+South Whittier Library,"11543 Colima Rd., Whittier, CA 90604",33.9254888,-118.0245554
+SBCC Thrive LA,"540 North Marine Ave., Wilmington, CA 90744",33.7768651,-118.263306

@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # arts-datathon-3-crafting
 
 ## Visualizing Data Through Craft
@@ -20,3 +21,7 @@ Live map of your LA places --> [Map!](https://matikin9.github.io/arts-datathon-3
 Live Archiving!
 Email: artsdatathon@gmail.com
 Site: https://sites.google.com/view/artsdatathon2019
+=======
+# rrcc-mock-election-locations
+Locations for the LA County Registrar Recorder/County Clerk's Mock Elections (9/28-9/29)
+>>>>>>> 02bf07d6440ded2ddd51c9950d3458da1905e415

@@ -57,7 +57,7 @@ function getGoogleSheetData() {
 
 function displayOnPage(row, warningString) {
   let name = '';
-  if (row.gsx$name.$t == '') {
+  if (row.gsx$name.$t === '') {
     name = 'anonymous';
   } else {
     name = row.gsx$name.$t;

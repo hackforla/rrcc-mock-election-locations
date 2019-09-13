@@ -2,17 +2,20 @@
 /* global L */
 
 const SHOW_WARNINGS = false;
-const warningString = ''; /* Warning Log */
-const participantList = ''; /* List of participants */
+const warningString = ""; /* Warning Log */
+const participantList = ""; /* List of participants */
 
 /*
  * Initialize Map
+  Instructions:
+  -Insert Access token
+  -Insert style Layer
  */
 L.mapbox.accessToken =
-  'pk.eyJ1IjoibWF0aWtpbjkiLCJhIjoiYjMyMjBjZTE4NWUxMDkxOWZjZjFjZWEzZTcxNDUxOTkifQ._ldFl3e17jCs7aWm6zMZ3Q';
-const mymap = L.map('map').setView([34.0522, -118.2437], 9);
+  "pk.eyJ1IjoidGFiYXRhaGciLCJhIjoiY2swZ3d0ZW1tMGNhZDNtbnhuMjl1dWdtaSJ9.QE_hNeGWFEqBI1JFHIR4hQ";
+const mymap = L.map("map").setView([34.0522, -118.2437], 9);
 L.mapbox
-  .styleLayer('mapbox://styles/matikin9/cim5bt1q100iy9jkpl7ff9d1h')
+  .styleLayer("mapbox://styles/tabatahg/ck0gwuq7217531cnymp56kn0u")
   .addTo(mymap); // base layer
 
 const overlayMaps = {};
@@ -31,8 +34,8 @@ function getGoogleSheetData() {
     https://spreadsheets.google.com/feeds/list/1OsMJUGcDA5HzP1ymc6vSXQ9XFb5OnSrvfm2rBFrI2Ng/ob55q1q/public/values?alt=json
     */
 
-  const spreadsheetID = '1OsMJUGcDA5HzP1ymc6vSXQ9XFb5OnSrvfm2rBFrI2Ng';
-  const worksheetID = 'ob55q1q'; // Sheet 1: orfa4yj
+  const spreadsheetID = "1OsMJUGcDA5HzP1ymc6vSXQ9XFb5OnSrvfm2rBFrI2Ng";
+  const worksheetID = "ob55q1q"; // Sheet 1: orfa4yj
   const url = `https://spreadsheets.google.com/feeds/list/${spreadsheetID}/${worksheetID}/public/values?alt=json`;
 
   /*
@@ -47,23 +50,23 @@ function getGoogleSheetData() {
 
   // Log Warnings
   if (SHOW_WARNINGS) {
-    $('#main-content').append(
+    $("#main-content").append(
       `<strong>Warnings: </strong><br>${
-        warningString == '' ? 'No errors!' : warningString
+        warningString == "" ? "No errors!" : warningString
       }<br><br>`
     );
   }
 }
 
 function displayOnPage(row, warningString) {
-  let name = '';
-  if (row.gsx$name.$t === '') {
-    name = 'anonymous';
+  let name = "";
+  if (row.gsx$name.$t === "") {
+    name = "anonymous";
   } else {
     name = row.gsx$name.$t;
   }
 
-  const name_slug = name.replace(/\s+/g, '');
+  const name_slug = name.replace(/\s+/g, "");
   const markers = [];
 
   /*
@@ -76,12 +79,12 @@ function displayOnPage(row, warningString) {
     const locationName = row[`gsx$location${i}name`].$t;
     const description = row[`gsx$location${i}description`].$t;
 
-    if (lat == '' || lng == '') {
+    if (lat == "" || lng == "") {
       warningString += `${name} has no coordinates for Location ${i}.<br>`;
     } else {
-      const $locationInfo = $('<div>', {
+      const $locationInfo = $("<div>", {
         // "id": name_slug + i,
-        class: 'location-data ', // + name_slug + "-marker"
+        class: "location-data " // + name_slug + "-marker"
       });
 
       // Build popup window
@@ -90,7 +93,7 @@ function displayOnPage(row, warningString) {
       $locationInfo.append(`<p>${description}</p>`);
 
       const m = L.marker([lat, lng])
-        .on('click', onMarkerClick)
+        .on("click", onMarkerClick)
         .bindPopup($locationInfo[0])
         .addTo(mymap);
 
@@ -105,8 +108,8 @@ function displayOnPage(row, warningString) {
    * so that when their name is clicked,
    * their markers are highlighted.
    */
-  const $participant = $('<a>', {
-    href: '#',
+  const $participant = $("<a>", {
+    href: "#"
   });
 
   $participant.append(name);
@@ -116,6 +119,6 @@ function displayOnPage(row, warningString) {
 function onMarkerClick(e) {
   const popup = e.target.getPopup();
   const content = popup.getContent();
-  $('#location-detail').html(content.innerHTML);
+  $("#location-detail").html(content.innerHTML);
   event.target.closePopup();
 }

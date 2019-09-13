@@ -13,10 +13,10 @@ const participantList = ""; /* List of participants */
  */
 L.mapbox.accessToken =
   "pk.eyJ1IjoidGFiYXRhaGciLCJhIjoiY2swZ3d0ZW1tMGNhZDNtbnhuMjl1dWdtaSJ9.QE_hNeGWFEqBI1JFHIR4hQ";
-const mymap = L.map("map").setView([34.0522, -118.2437], 9);
+const myMap = L.map("map").setView([34.0522, -118.2437], 9);
 L.mapbox
   .styleLayer("mapbox://styles/tabatahg/ck0gwuq7217531cnymp56kn0u")
-  .addTo(mymap); // base layer
+  .addTo(myMap); // base layer
 
 const overlayMaps = {};
 
@@ -25,7 +25,7 @@ const overlayMaps = {};
  */
 $(function() {
   getGoogleSheetData();
-  L.control.layers(overlayMaps).addTo(mymap);
+  L.control.layers(overlayMaps).addTo(myMap);
 });
 
 function getGoogleSheetData() {
@@ -34,9 +34,9 @@ function getGoogleSheetData() {
     https://spreadsheets.google.com/feeds/list/1OsMJUGcDA5HzP1ymc6vSXQ9XFb5OnSrvfm2rBFrI2Ng/ob55q1q/public/values?alt=json
     */
 
-  const spreadsheetID = "1OsMJUGcDA5HzP1ymc6vSXQ9XFb5OnSrvfm2rBFrI2Ng";
-  const worksheetID = "ob55q1q"; // Sheet 1: orfa4yj
-  const url = `https://spreadsheets.google.com/feeds/list/${spreadsheetID}/${worksheetID}/public/values?alt=json`;
+  // const spreadsheetID = "1OsMJUGcDA5HzP1ymc6vSXQ9XFb5OnSrvfm2rBFrI2Ng";
+  // const worksheetID = "ob55q1q"; // Sheet 1: orfa4yj
+  // const url = `https://spreadsheets.google.com/feeds/list/${spreadsheetID}/${worksheetID}/public/values?alt=json`;
 
   /*
    * Iterate through each
@@ -95,7 +95,7 @@ function displayOnPage(row, warningString) {
       const m = L.marker([lat, lng])
         .on("click", onMarkerClick)
         .bindPopup($locationInfo[0])
-        .addTo(mymap);
+        .addTo(myMap);
 
       markers.push(m);
     }

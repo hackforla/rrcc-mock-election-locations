@@ -22,7 +22,7 @@ L.mapbox
   .addTo(myMap); // base layer
 
 function getJSONData() {
-  $.getJSON("../mock-election-locations.json", function(data) {
+  $.getJSON("mock-election-locations.json", function(data) {
     $.each(data, function(i, val) {
       displayOnPage(val);
     });

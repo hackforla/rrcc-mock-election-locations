@@ -5,28 +5,21 @@ const SHOW_WARNINGS = false;
 const warningString = ""; /* Warning Log */
 const participantList = ""; /* List of participants */
 
+const overlayMaps = {};
+
 /*
  * Initialize Map
   Instructions:
   -Insert Access token
   -Insert style Layer
  */
+
 L.mapbox.accessToken =
   "pk.eyJ1IjoidGFiYXRhaGciLCJhIjoiY2swZ3d0ZW1tMGNhZDNtbnhuMjl1dWdtaSJ9.QE_hNeGWFEqBI1JFHIR4hQ";
 const myMap = L.map("map").setView([34.0522, -118.2437], 9);
 L.mapbox
   .styleLayer("mapbox://styles/tabatahg/ck0gwuq7217531cnymp56kn0u")
   .addTo(myMap); // base layer
-
-const overlayMaps = {};
-
-/*
- * Pull data and display on page
- */
-$(function() {
-  getJSONData();
-  L.control.layers(overlayMaps).addTo(myMap);
-});
 
 function getJSONData() {
   $.getJSON("../mock-election-locations.json", function(data) {
@@ -42,6 +35,14 @@ function getJSONData() {
     }
   });
 }
+
+/*
+ * Pull data and display on page
+ */
+$(function() {
+  getJSONData();
+  L.control.layers(overlayMaps).addTo(myMap);
+});
 
 // function getGoogleSheetData() {
 //   /*
@@ -74,7 +75,6 @@ function getJSONData() {
 // }
 
 function displayOnPage(location, warningString) {
-  console.log(location);
   let name = "";
   if (location.LocationName === "") {
     name = "anonymous";

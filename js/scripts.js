@@ -3,7 +3,7 @@
 
 L.mapbox.accessToken =
   "pk.eyJ1IjoidGFiYXRhaGciLCJhIjoiY2swZ3d0ZW1tMGNhZDNtbnhuMjl1dWdtaSJ9.QE_hNeGWFEqBI1JFHIR4hQ";
-const myMap = L.map("map").setView([34.0522, -118.2437], 10);
+const myMap = L.map("map").setView([34.2022, -118.2437], 10);
 L.mapbox
   .styleLayer("mapbox://styles/tabatahg/ck0gwuq7217531cnymp56kn0u")
   .addTo(myMap); // base layer

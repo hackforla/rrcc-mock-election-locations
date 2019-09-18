@@ -44,5 +44,5 @@ function onMarkerClick(e) {
   const popup = e.target.getPopup();
   const content = popup.getContent();
   $("#location-detail").html(content.innerHTML);
-  event.target.closePopup(); // prevents pop-up from appearing on the map because it displays on the side instead
+  e.target.closePopup(); // prevents pop-up from appearing on the map because it displays on the side instead
 }
